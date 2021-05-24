@@ -2,14 +2,14 @@ resources:
   - name: demo_gitRepo
     type: GitRepo
     configuration:
-      path: jfrog/Horae
+      path: jfrogswampup2021/Horae
       gitProvider: GitHub
       branches:
         include: master        
   - name: gitRepo_code
     type: GitRepo
     configuration:
-      path: jfrogtraining/project-examples
+      path: jfrogswampup2021/project-examples
       gitProvider: GitHub
       branches:
         include: eplus-v2-orbitera
